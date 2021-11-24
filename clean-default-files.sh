@@ -7,6 +7,8 @@ FILES=(
     "app/Http/Controllers/Auth"
     "database/factories/UserFactory.php"
     "database/migrations/*.php"
+    "package.json"
+    "package-lock.json"
     "public/.htaccess"
     "public/robots.txt"
     "public/favicon.ico"
@@ -20,7 +22,6 @@ FILES=(
     "routes/web.php"
     "server.php"
     "tests/Feature/ExampleTest.php"
-    "tests/TestCase.php"
     "tests/Unit/ExampleTest.php"
     "webpack.mix.js"
 )
